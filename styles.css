@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*YOUTUBE VIDEO*/
+body {
+    min-height: 100vh;
+    background-color: hsl(233, 47%, 7%);
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+/*YOUTUBE VIDEO*/
+.container {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+/*YOUTUBE VIDEO*/
+.grid {
+    background-color: hsl(244, 38%, 16%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 2rem;
+}
+
+/*YOUTUBE VIDEO*/
+.image img {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*YOUTUBE VIDEO*/
+.image {
+    position: relative;
+}
+
+/*YOUTUBE VIDEO*/
+.image::after {
+    position: absolute;
+    content: '';
+    height:100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: hsla(277, 64%, 61%, 0.6);
+}
+
+/*YOUTUBE VIDEO*/
+.text {
+    padding: 13px;
+}
+
+/*YOUTUBE VIDEO*/
+.sub-text {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.8;
+}
+
+/*YOUTUBE VIDEO*/
+.stats-section {
+
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    padding-bottom: 20px;
+}
+
+
+h2 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+}
+
+/*
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    place-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+*/
+
+
+span {
+    color: hsl(277, 64%, 61%);
+}
+
+.stats-section {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
