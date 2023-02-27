@@ -9,6 +9,7 @@ body {
     background-color: hsl(233, 47%, 7%);
     font-size: 15px;
     display: flex;
+    justify-content: center;
     align-items: center;
     font-family: 'Lexend Deca', sans-serif;
 }
